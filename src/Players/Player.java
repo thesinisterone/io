@@ -21,11 +21,11 @@ public abstract class Player {
     public abstract int guess();
     
     public void setName(String name){
-        if( name != null && !name.isEmpty())
+        //if( name != null && !name.isEmpty())
            this.name=name;
-        else {
-            throw new IllegalArgumentException();
-        }
+       // else {
+         //   throw new IllegalArgumentException();
+       // }
               }
     
     public String getName(){
