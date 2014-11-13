@@ -6,6 +6,7 @@ package javaapplication1;
 
 import Players.Player;
 import Players.PlayerBot;
+import Players.PlayerHuman;
 
 /**
  *
@@ -23,6 +24,10 @@ public class JavaApplication1 {
       Player Player = new PlayerBot("Maurice Bot");
       Game g = new Game();
       g.addPlayer(Player);
+      g.addPlayer(new PlayerBot("Człek"));
+      g.addPlayer(new PlayerBot("Człek"));
+      g.addPlayer(new PlayerBot("Człek"));
+      g.addPlayer(new PlayerBot("Człek"));
       g.start();
       
       
